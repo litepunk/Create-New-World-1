@@ -1,0 +1,145 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "aquatic_ambitions"
+	group: "185B5BC806CF7E4B"
+	id: "0DF832F7717532E3"
+	order_index: 10
+	quest_links: [ ]
+	quests: [
+		{
+			id: "0D28EB8E62F1D885"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2F1496A508F0F605"
+				table_id: 5234725952714858445L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1DA84FDB156BA767"
+				item: "create_aquatic_ambitions:prismarine_alloy"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0D28EB8E62F1D885"]
+			id: "3BD0C5B2BE44820C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "42D522378503235F"
+				table_id: 5234725952714858445L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3AE788BC041AE695"
+				item: "create_aquatic_ambitions:prismarine_alloy_rod"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0D28EB8E62F1D885"]
+			id: "70D6C4BF775D389C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1ECF6B3F36D2976A"
+				table_id: 5234725952714858445L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6C458C09E948D4E3"
+				item: "create_aquatic_ambitions:prismarine_alloy_block"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3BD0C5B2BE44820C"]
+			id: "421CAD4201A977D1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "65C9B0C35F6E8FA6"
+				table_id: 5234725952714858445L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0279F45105DF723F"
+				item: "create_aquatic_ambitions:mechanical_conduit"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			id: "0EBA4533B5894A48"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "285CBA29E0E56EF5"
+				table_id: 5234725952714858445L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3BE54E7C5E504F02"
+				item: "create_aquatic_ambitions:suspicious_rock"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0EBA4533B5894A48"]
+			id: "4FFEF366A06B6358"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1018366C90EE8785"
+				table_id: 5234725952714858445L
+				type: "random"
+			}]
+			tasks: [{
+				id: "231C98F9C1DF5D96"
+				item: "create_aquatic_ambitions:spiky_shell"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			id: "2D683A28D6263C62"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7A814BCC8897B583"
+				table_id: 5234725952714858445L
+				type: "random"
+			}]
+			tasks: [{
+				id: "60811BB684996045"
+				item: "create_aquatic_ambitions:calcium_rich_powder"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2D683A28D6263C62"]
+			id: "0B5FAE3AED591F84"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "202D72861DB7205E"
+				table_id: 5234725952714858445L
+				type: "random"
+			}]
+			tasks: [{
+				id: "565F45D40C052F4C"
+				item: "minecraft:calcite"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.5d
+		}
+	]
+	title: "Aquatic Ambitions"
+}
