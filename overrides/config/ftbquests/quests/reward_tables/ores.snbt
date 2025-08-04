@@ -1,0 +1,17 @@
+{
+	id: "48A57B84EC165FCD"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{ count: 8, item: "minecraft:deepslate_coal_ore" }
+		{ count: 8, item: "minecraft:deepslate_iron_ore" }
+		{ count: 8, item: "minecraft:deepslate_copper_ore" }
+		{ count: 8, item: "minecraft:deepslate_gold_ore" }
+		{ count: 8, item: "minecraft:deepslate_redstone_ore" }
+		{ count: 8, item: "minecraft:deepslate_emerald_ore" }
+		{ count: 8, item: "minecraft:deepslate_lapis_ore" }
+		{ count: 4, item: "minecraft:deepslate_diamond_ore" }
+		{ count: 8, item: "create_more_additions:deepslate_silver_ore" }
+	]
+	title: "Ores"
+}

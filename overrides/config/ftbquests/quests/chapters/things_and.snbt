@@ -1,0 +1,427 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "things_and"
+	group: "185B5BC806CF7E4B"
+	id: "714C8DA73CDB19F3"
+	order_index: 8
+	quest_links: [ ]
+	quests: [
+		{
+			id: "4F45F69B5B95DBC9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5AD2593A1ECA5397"
+				table_id: 5234725952714858445L
+				type: "random"
+			}]
+			tasks: [{
+				id: "75CE146F0EB8FE8C"
+				item: "create_things_and_misc:spout_gun"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["49016679D17AE5B5"]
+			id: "567357EB7648351E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "637C91C93A0672E7"
+				table_id: 5234725952714858445L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1FC068E1E540FC13"
+				item: "create_things_and_misc:radar"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			id: "49016679D17AE5B5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "62B0BF3DB1E9D152"
+				table_id: 5234725952714858445L
+				type: "random"
+			}]
+			tasks: [{
+				id: "78BB60FD7B2BD0FE"
+				item: "create_things_and_misc:vibration_mechanism"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			id: "435F62527D0B4516"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "43D9E4F3AE774415"
+				table_id: 5234725952714858445L
+				type: "random"
+			}]
+			tasks: [{
+				id: "58E8138EDB65E70D"
+				item: "create_things_and_misc:slime_cake"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			id: "09F0AC95ADCCE70A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "728E19EAD4444C65"
+				table_id: 5234725952714858445L
+				type: "random"
+			}]
+			tasks: [{
+				id: "69AA8B8A839B8778"
+				item: {
+					Count: 1
+					id: "create_things_and_misc:neon_tube"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			id: "58A91CD47C3113A2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "157D9C3D5C5BC405"
+				table_id: 5234725952714858445L
+				type: "random"
+			}]
+			tasks: [{
+				id: "74295C84BA134005"
+				item: "create_things_and_misc:portable_whistle"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["79E3C8F4C0757CD2"]
+			id: "4D3749B186BE204F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0B68FA01386C1638"
+				table_id: 5234725952714858445L
+				type: "random"
+			}]
+			tasks: [{
+				id: "23805AD05ADDE240"
+				item: "create_things_and_misc:magnifying_glass"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			id: "4ABFA9951A5E48FF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "128FE69B466B3EB5"
+				table_id: 5234725952714858445L
+				type: "random"
+			}]
+			tasks: [{
+				id: "261B9DEF31020FB5"
+				item: {
+					Count: 1
+					id: "create_things_and_misc:sticky_boots_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			id: "79E3C8F4C0757CD2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4D1EACF5B75DE1A6"
+				table_id: 5234725952714858445L
+				type: "random"
+			}]
+			tasks: [{
+				id: "275B3FD382D6C059"
+				item: "create_things_and_misc:empty_card"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["79E3C8F4C0757CD2"]
+			id: "5056356FA8649680"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "70AEAEBAE56FC09A"
+				table_id: 5234725952714858445L
+				type: "random"
+			}]
+			tasks: [{
+				id: "736509EC52C39AAE"
+				item: "create_things_and_misc:empty_ticket"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3F54393B1027182E"]
+			id: "5E48C2421F5E567F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0B026C51B8C836AC"
+				table_id: 5234725952714858445L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6996FB8E713E114A"
+				item: "create_things_and_misc:card_reader"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["79E3C8F4C0757CD2"]
+			id: "3F54393B1027182E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2B63D217CFC0B5C3"
+				table_id: 5234725952714858445L
+				type: "random"
+			}]
+			tasks: [{
+				id: "497299ACE2743B1A"
+				item: "create_things_and_misc:card_press"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6D6EE16690E7C983"]
+			id: "570D786C1C9DFBF8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1ECDD140E6A74501"
+				table_id: 5234725952714858445L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6BBF2B9C405697DB"
+				item: "create_things_and_misc:sprinkler"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 4.0d
+		}
+		{
+			id: "7DA8B2CD73CE4244"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6FE2CA6C2B5C431C"
+				table_id: 5234725952714858445L
+				type: "random"
+			}]
+			tasks: [{
+				id: "33BFB2E3F7B1EBDA"
+				item: "create_things_and_misc:brass_speaker"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -1.0d
+		}
+		{
+			id: "3DF16490FA0D4BA7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0D72510307122730"
+				table_id: 5234725952714858445L
+				type: "random"
+			}]
+			tasks: [{
+				id: "47F81ECFBB3D93D1"
+				item: "create_things_and_misc:train_stop"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			id: "12FA8293E8E585EB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6D2E481F80E88F23"
+				table_id: 5234725952714858445L
+				type: "random"
+			}]
+			tasks: [{
+				id: "590415ABDBCE90D5"
+				item: "create_things_and_misc:brass_tiles"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -1.0d
+		}
+		{
+			id: "75E836322951B637"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5C74470E697E35F1"
+				table_id: 5234725952714858445L
+				type: "random"
+			}]
+			tasks: [{
+				id: "52614E27587C203F"
+				item: "create_things_and_misc:powdered_obsidian_block"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			id: "4FD8E0295B731CE4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2F08E34B696A5448"
+				table_id: 5234725952714858445L
+				type: "random"
+			}]
+			tasks: [{
+				id: "642A99D42C7710F0"
+				item: "create_things_and_misc:sturdy_sheet_block"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -1.0d
+		}
+		{
+			id: "56E4DA5DB2143910"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "176D44DF6CE7FB85"
+				table_id: 5234725952714858445L
+				type: "random"
+			}]
+			tasks: [{
+				id: "14449A58C308ED2F"
+				item: "create_things_and_misc:train_buffer"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			id: "6EB1D0AD337651F4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "36DA755A1875BB69"
+				table_id: 5234725952714858445L
+				type: "random"
+			}]
+			tasks: [{
+				id: "50C322171985342B"
+				item: {
+					Count: 1
+					id: "create_things_and_misc:blaze_balloon_fire"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			id: "6D6EE16690E7C983"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "553DF9CC05BC7D4E"
+				table_id: 5234725952714858445L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0DA7CED8031E4745"
+				item: "create_things_and_misc:sprinkler_head"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["676016021D05892B"]
+			id: "7242EDFAF67746D0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1FC29040A9E049B7"
+				table_id: 5234725952714858445L
+				type: "random"
+			}]
+			tasks: [{
+				id: "10EBC62E197EEDE1"
+				item: {
+					Count: 1
+					id: "create_things_and_misc:mending_rune"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			id: "0F2AEF8B8936E060"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3304D0842ACCD97B"
+				table_id: 5234725952714858445L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4603A8EF4296A0CB"
+				item: "create_things_and_misc:glue_packaging"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			id: "676016021D05892B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4E02EEA7212595EC"
+				table_id: 5234725952714858445L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6D0123BA5FF2718B"
+				item: "create_things_and_misc:experience_sheet"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
+	]
+	title: "Things and Misc"
+}

@@ -1,0 +1,54 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tempad"
+	group: ""
+	icon: {
+		Count: 1
+		id: "tempad:tempad"
+		tag: { }
+	}
+	id: "49CA51C767F34114"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2E029F1879A8DDA0"]
+			id: "1A7A7D5E42C2F531"
+			rewards: [{
+				count: 8
+				id: "5D11868CBFD7F251"
+				item: "minecraft:enchanted_golden_apple"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5BE0D9021A13D19C"
+				item: {
+					Count: 1
+					id: "tempad:tempad"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "2E029F1879A8DDA0"
+			rewards: [{
+				count: 4
+				id: "088D2B489EDB07DA"
+				item: "minecraft:ancient_debris"
+				type: "item"
+			}]
+			tasks: [{
+				id: "18243E976D7611DF"
+				item: "minecraft:nether_star"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+	]
+	title: "Tempad"
+}

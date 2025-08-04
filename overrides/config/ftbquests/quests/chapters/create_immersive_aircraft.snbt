@@ -1,0 +1,942 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create_immersive_aircraft"
+	group: "185B5BC806CF7E4B"
+	id: "61F5095F711EBD5F"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["75A0242840C4324D"]
+			id: "5BF2EDC378167384"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7BFC01CE8E650BD4"
+				table_id: 5234725952714858445L
+				type: "random"
+			}]
+			tasks: [{
+				count: 4L
+				id: "67C105A0148098E6"
+				item: "immersive_aircraft:hull"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["75A0242840C4324D"]
+			id: "33EAEE9FF8F2CF1C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "70F1B39475A9ED86"
+				table_id: 5234725952714858445L
+				type: "random"
+			}]
+			tasks: [{
+				id: "32548DEFEDFCFC64"
+				item: "immersive_aircraft:engine"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["75A0242840C4324D"]
+			id: "639C519F554CB4C2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "320498FA733021C0"
+				table_id: 5234725952714858445L
+				type: "random"
+			}]
+			tasks: [{
+				count: 5L
+				id: "6669B9F55792BBED"
+				item: "immersive_aircraft:sail"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"5BF2EDC378167384"
+				"33EAEE9FF8F2CF1C"
+				"6540F4E750EC56B7"
+				"639C519F554CB4C2"
+				"630739D55AB543A3"
+				"7C63B19D2AF9CF08"
+			]
+			id: "015797FF2E031911"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "06C013F541C81639"
+				table_id: 5234725952714858445L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6FF60C8A4CD0E687"
+				item: "immersive_aircraft:airship"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"015797FF2E031911"
+				"368AF13932F5A012"
+				"793EEA3101C283B9"
+			]
+			id: "176484CBB09CB80D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7A6B8C6D2E918726"
+				table_id: 5234725952714858445L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5E2B6CAF861CA153"
+				item: "immersive_aircraft:cargo_airship"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"170074853C04D681"
+				"5BA342993AEBFA31"
+				"483AE04BCD2E407E"
+				"4F450FA81345E780"
+				"69D0CB5143E5785A"
+				"36234A5BFD7DBF9A"
+				"176484CBB09CB80D"
+			]
+			id: "167B6595A73784F7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "753DE36E46D05FFD"
+				table_id: 5234725952714858445L
+				type: "random"
+			}]
+			tasks: [{
+				id: "010021D2C012B0E3"
+				item: "immersive_aircraft:warship"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"0D43BA476EF0FF74"
+				"0DCB09FB840A305B"
+				"35AEF8D9E9AFADE0"
+				"002BE2A5AB72FC05"
+				"77D6E134BB461B4B"
+			]
+			id: "3C4E2FDAD7ABF5D9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5F9DAB03E2D54A60"
+				table_id: 5234725952714858445L
+				type: "random"
+			}]
+			tasks: [{
+				id: "54EA746D60F805B1"
+				item: "immersive_aircraft:biplane"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"34E44A7075414615"
+				"29D2C000E0685FCA"
+				"4CB17FD9F511316B"
+				"7481A4843CF58A23"
+				"61F29B517B429438"
+			]
+			id: "3F7DBE7FE14EA559"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "560FC107535416F0"
+				table_id: 5234725952714858445L
+				type: "random"
+			}]
+			tasks: [{
+				id: "473B53D6E2164943"
+				item: "immersive_aircraft:gyrodyne"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"654174D3FE746C25"
+				"1CD5EA21F4F9FAEB"
+				"3EFE3D20147600E2"
+				"456D2BC4D9F75CD2"
+			]
+			id: "1B698272E4976C75"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "42914BEF71F99428"
+				table_id: 5234725952714858445L
+				type: "random"
+			}]
+			tasks: [{
+				id: "241000CABED5C396"
+				item: "immersive_aircraft:quadrocopter"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			id: "7B9B02302FAE0A8C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "661A290AE9005A15"
+				table_id: 5234725952714858445L
+				type: "random"
+			}]
+			tasks: [{
+				id: "62C3B0A1CAEE5763"
+				item: "immersive_aircraft:rotary_cannon"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -6.0d
+		}
+		{
+			id: "5B3BAB4A8312EE73"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "174217430A5DE856"
+				table_id: 5234725952714858445L
+				type: "random"
+			}]
+			tasks: [{
+				id: "15382C4CE170824D"
+				item: "immersive_aircraft:heavy_crossbow"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -6.0d
+		}
+		{
+			id: "7E438FE49B1A3D5A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6D7A71BCD8EA84A4"
+				table_id: 5234725952714858445L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3CA53D835EA94DCD"
+				item: "immersive_aircraft:telescope"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -5.0d
+		}
+		{
+			id: "559612E14AE68005"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "482E6EBE329A568A"
+				table_id: 5234725952714858445L
+				type: "random"
+			}]
+			tasks: [{
+				id: "77282FEAEAF93227"
+				item: "immersive_aircraft:bomb_bay"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -5.0d
+		}
+		{
+			id: "703BA6C3C3DB6EF6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1EC368396CF82572"
+				table_id: 5234725952714858445L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7C07FBD86A56369F"
+				item: "immersive_aircraft:enhanced_propeller"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -6.0d
+		}
+		{
+			id: "61180FF497D10EBE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7EE02E8ED843E966"
+				table_id: 5234725952714858445L
+				type: "random"
+			}]
+			tasks: [{
+				id: "717929D3EE361DE7"
+				item: "immersive_aircraft:eco_engine"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			id: "7520E21471A09E12"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0A3F351FA9CF4512"
+				table_id: 5234725952714858445L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6E0F0027B64E3843"
+				item: "immersive_aircraft:nether_engine"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			id: "2D4E40D252FE18ED"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "611590102AD9AD60"
+				table_id: 5234725952714858445L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2D1D6CE92797D425"
+				item: "immersive_aircraft:steel_boiler"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -6.0d
+		}
+		{
+			id: "711DA6D5A707BFA4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3A7C43D8F2D33B1F"
+				table_id: 5234725952714858445L
+				type: "random"
+			}]
+			tasks: [{
+				id: "047B4066300723F4"
+				item: "immersive_aircraft:industrial_gears"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -6.0d
+		}
+		{
+			id: "63C0491BBBA184C9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "10A377D6C3E26170"
+				table_id: 5234725952714858445L
+				type: "random"
+			}]
+			tasks: [{
+				id: "713B20E2222BC0A0"
+				item: "immersive_aircraft:sturdy_pipes"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -5.0d
+		}
+		{
+			id: "6A1084C417904D17"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "46E2316957A29333"
+				table_id: 5234725952714858445L
+				type: "random"
+			}]
+			tasks: [{
+				id: "35D2A78FE2BEF238"
+				item: "immersive_aircraft:gyroscope"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -5.0d
+		}
+		{
+			id: "1F73B7404F0E6711"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "481B957C45413DBA"
+				table_id: 5234725952714858445L
+				type: "random"
+			}]
+			tasks: [{
+				id: "239A1799E8554EC7"
+				item: "immersive_aircraft:hull_reinforcement"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -5.0d
+		}
+		{
+			id: "4C312F57BD02A532"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "279D0E1A2923AF26"
+				table_id: 5234725952714858445L
+				type: "random"
+			}]
+			tasks: [{
+				id: "23C1572747A369C8"
+				item: "immersive_aircraft:improved_landing_gear"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["75A0242840C4324D"]
+			id: "6540F4E750EC56B7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3AA60881211AFA0A"
+				table_id: 5234725952714858445L
+				type: "random"
+			}]
+			tasks: [{
+				id: "29AF1F0536D7B22C"
+				item: "create:propeller"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["63A09278B221DD7B"]
+			id: "36234A5BFD7DBF9A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "34A3C92E3C8100C0"
+				table_id: 5234725952714858445L
+				type: "random"
+			}]
+			tasks: [{
+				count: 4L
+				id: "18D073B00E623215"
+				item: "create:sturdy_sheet"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["63A09278B221DD7B"]
+			id: "483AE04BCD2E407E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "391AB6DADE2E8F4A"
+				table_id: 5234725952714858445L
+				type: "random"
+			}]
+			tasks: [{
+				count: 6L
+				id: "07538EFAAF5AE83F"
+				item: "immersive_aircraft:sail"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["63A09278B221DD7B"]
+			id: "170074853C04D681"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "08DED116C596D042"
+				table_id: 5234725952714858445L
+				type: "random"
+			}]
+			tasks: [{
+				count: 4L
+				id: "2B85FECD60474A3F"
+				item: "immersive_aircraft:hull"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["75A0242840C4324D"]
+			id: "630739D55AB543A3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3A3E2EC256272252"
+				table_id: 5234725952714858445L
+				type: "random"
+			}]
+			tasks: [{
+				count: 2L
+				id: "04AD4913A6670C37"
+				item: "minecraft:string"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["75A0242840C4324D"]
+			id: "7C63B19D2AF9CF08"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7E6BA5E54339AF45"
+				table_id: 5234725952714858445L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0E2BCFBE8C2DD521"
+				item: "create:white_seat"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["63A09278B221DD7B"]
+			id: "4F450FA81345E780"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5B5DC81ACD741DF7"
+				table_id: 5234725952714858445L
+				type: "random"
+			}]
+			tasks: [{
+				count: 2L
+				id: "0700C0FAF83ABB26"
+				item: "minecraft:string"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["63A09278B221DD7B"]
+			id: "69D0CB5143E5785A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7DF125B82C3F5F60"
+				table_id: 5234725952714858445L
+				type: "random"
+			}]
+			tasks: [{
+				id: "27F4881B8BA0973E"
+				item: "immersive_aircraft:heavy_crossbow"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["63A09278B221DD7B"]
+			id: "5BA342993AEBFA31"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2540C306219CC6D9"
+				table_id: 5234725952714858445L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1B37ED50997FE4BD"
+				item: "immersive_aircraft:propeller"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1034127DA8254258"]
+			id: "0D43BA476EF0FF74"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4B9A711AFF7A9B72"
+				table_id: 5234725952714858445L
+				type: "random"
+			}]
+			tasks: [{
+				id: "128D67377B8D93E1"
+				item: "immersive_aircraft:engine"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1034127DA8254258"]
+			id: "0DCB09FB840A305B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "49F91715805BD3AE"
+				table_id: 5234725952714858445L
+				type: "random"
+			}]
+			tasks: [{
+				count: 2L
+				id: "0F3E71BE8B11006A"
+				item: "immersive_aircraft:hull"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1034127DA8254258"]
+			id: "002BE2A5AB72FC05"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0BCB23D687E63AD1"
+				table_id: 5234725952714858445L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7230FCD2004DE6F1"
+				item: "immersive_aircraft:propeller"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1034127DA8254258"]
+			id: "35AEF8D9E9AFADE0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7BE3B3CA4A8B26F3"
+				table_id: 5234725952714858445L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7C03EFDAA11538DD"
+				item: "create:white_seat"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["27ECFFF1857BA11A"]
+			id: "368AF13932F5A012"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "18BC128D031056A6"
+				table_id: 5234725952714858445L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4F0C4A2ED56FADE7"
+				item: "immersive_aircraft:hull"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["27ECFFF1857BA11A"]
+			id: "793EEA3101C283B9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "25C38B1B8AD78C91"
+				table_id: 5234725952714858445L
+				type: "random"
+			}]
+			tasks: [{
+				count: 4L
+				id: "37AD0573A79D5607"
+				item: "minecraft:chest"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["35707E654B6E7436"]
+			id: "61F29B517B429438"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7666A6673D172788"
+				table_id: 5234725952714858445L
+				type: "random"
+			}]
+			tasks: [{
+				id: "654D69D5D95FE7B4"
+				item: "create:precision_mechanism"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["35707E654B6E7436"]
+			id: "7481A4843CF58A23"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "31778B3024B20FCE"
+				table_id: 5234725952714858445L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0EC54F1BB228B14C"
+				item: "immersive_aircraft:propeller"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["35707E654B6E7436"]
+			id: "4CB17FD9F511316B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7AC98ECE6E7BDE9A"
+				table_id: 5234725952714858445L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5F38687B61F69131"
+				item: "create:white_seat"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["35707E654B6E7436"]
+			id: "29D2C000E0685FCA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6B697A55C744CFBC"
+				table_id: 5234725952714858445L
+				type: "random"
+			}]
+			tasks: [{
+				id: "17AEFCAAC7927004"
+				item: "immersive_aircraft:hull"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["49712E931B618DFB"]
+			id: "3EFE3D20147600E2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5BA56C93367A98F7"
+				table_id: 5234725952714858445L
+				type: "random"
+			}]
+			tasks: [{
+				id: "177E3EF7426E3A52"
+				item: "immersive_aircraft:boiler"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["49712E931B618DFB"]
+			id: "1CD5EA21F4F9FAEB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "05DDA313051B8134"
+				table_id: 5234725952714858445L
+				type: "random"
+			}]
+			tasks: [{
+				count: 4L
+				id: "483F8A43A8847203"
+				item: "create:propeller"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["49712E931B618DFB"]
+			id: "654174D3FE746C25"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1515181CF41834F2"
+				table_id: 5234725952714858445L
+				type: "random"
+			}]
+			tasks: [{
+				id: "043DF1D0C2044809"
+				item: "minecraft:string"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["49712E931B618DFB"]
+			id: "456D2BC4D9F75CD2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0494147444ACD0A9"
+				table_id: 5234725952714858445L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6F78433C2A90313B"
+				item: "create:andesite_casing"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1034127DA8254258"]
+			id: "77D6E134BB461B4B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "17A4EA813DA95DD8"
+				table_id: 5234725952714858445L
+				type: "random"
+			}]
+			tasks: [{
+				count: 6L
+				id: "5642355AD65D09D9"
+				item: "immersive_aircraft:sail"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["35707E654B6E7436"]
+			id: "34E44A7075414615"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "32A6F0F0D3C990F1"
+				table_id: 5234725952714858445L
+				type: "random"
+			}]
+			tasks: [{
+				count: 6L
+				id: "7E393A9DE60977FA"
+				item: "immersive_aircraft:sail"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			id: "75A0242840C4324D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "150BF375043CC658"
+				table_id: 5234725952714858445L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2E2D6AD538C18E58"
+				title: "Let's Craft"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			id: "27ECFFF1857BA11A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3D4BE9CB71B144DF"
+				table_id: 5234725952714858445L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2D5F6AE04D5DCF5D"
+				title: "Let's Craft"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			id: "63A09278B221DD7B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3A7DFD90CFA54DB2"
+				table_id: 5234725952714858445L
+				type: "random"
+			}]
+			tasks: [{
+				id: "13B5678E7C144C0A"
+				title: "Let's Craft"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			id: "49712E931B618DFB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1867EA7C046A0F96"
+				table_id: 5234725952714858445L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6E2BD29EE5020723"
+				title: "Let's Craft"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 6.0d
+		}
+		{
+			id: "1034127DA8254258"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3CFB260F4A2269BA"
+				table_id: 5234725952714858445L
+				type: "random"
+			}]
+			tasks: [{
+				id: "78F5A9F7202E243C"
+				title: "Let's Craft"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			id: "35707E654B6E7436"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2F7ACCA69208F6D9"
+				table_id: 5234725952714858445L
+				type: "random"
+			}]
+			tasks: [{
+				id: "324B11144CED0498"
+				title: "Let's Craft"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 6.0d
+		}
+	]
+	title: "Immersive Aircraft"
+}

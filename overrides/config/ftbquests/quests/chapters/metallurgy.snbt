@@ -1,0 +1,563 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "metallurgy"
+	group: "185B5BC806CF7E4B"
+	id: "46ADF82C3D0F4544"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			id: "61661BB451DB50CB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5E488DE7974D27C6"
+				table_id: 5234725952714858445L
+				type: "random"
+			}]
+			tasks: [{
+				id: "62D1CD998CF60E31"
+				item: "createmetallurgy:wolframite_ore"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"4C49E36E1AD32692"
+				"31A97142188D835D"
+			]
+			id: "2F89519B1E62C643"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "144D91B6944DE4D7"
+				table_id: 5234725952714858445L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5060356EBFD1804F"
+				item: "createmetallurgy:foundry_basin"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2F89519B1E62C643"]
+			id: "13AC102D500BB0ED"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "54C52B89763E4416"
+				table_id: 5234725952714858445L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1313F562DB69FF0D"
+				item: "createmetallurgy:foundry_lid"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"7FF144A06A0B5B9F"
+				"13AC102D500BB0ED"
+			]
+			id: "115FC7881A5FBD94"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "57EE05E9E053E574"
+				table_id: 5234725952714858445L
+				type: "random"
+			}]
+			tasks: [{
+				id: "006A872DC53CDEA4"
+				item: "createmetallurgy:foundry_mixer"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6EE4F3E6B0564384"]
+			id: "2D01F4F1785C4228"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7D0EE03C09B60E57"
+				table_id: 5234725952714858445L
+				type: "random"
+			}]
+			tasks: [{
+				id: "32B3355F65FFD709"
+				item: "createmetallurgy:mechanical_belt_grinder"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 0.5d
+		}
+		{
+			id: "4C49E36E1AD32692"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "370E568F7564AC14"
+				table_id: 5234725952714858445L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0178B1019E4F8FC1"
+				item: "createmetallurgy:refractory_mortar"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["61661BB451DB50CB"]
+			id: "153FB1C33505AD49"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "66F9C568A733DFB8"
+				table_id: 5234725952714858445L
+				type: "random"
+			}]
+			tasks: [{
+				id: "33F2C9F570CFF59D"
+				item: "createmetallurgy:dirty_wolframite_dust"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -4.0d
+		}
+		{
+			id: "021D7F8D8A0AA376"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5897795E824DDAAE"
+				table_id: 5234725952714858445L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7E02BE2FFA52E18B"
+				item: "createmetallurgy:dirty_gold_dust"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -3.0d
+		}
+		{
+			id: "34987E47592ADC28"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "212727FBFF24853F"
+				table_id: 5234725952714858445L
+				type: "random"
+			}]
+			tasks: [{
+				id: "16A308AA6A605B20"
+				item: "createmetallurgy:dirty_iron_dust"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.0d
+		}
+		{
+			id: "55E0E73CB6E0018B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2A38DB952378DF09"
+				table_id: 5234725952714858445L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3066A1B9807D7201"
+				item: "createmetallurgy:dirty_copper_dust"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			id: "3E033D03D0624BD1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "448F7740E6C15438"
+				table_id: 5234725952714858445L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7CB3068680E39094"
+				item: "createmetallurgy:dirty_zinc_dust"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["46B525970B053FFD"]
+			id: "0437DCEB0DC82DBA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "78ECE7AD42461D1D"
+				table_id: 5234725952714858445L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4F622541D1E2781E"
+				item: "createmetallurgy:graphite_blank_mold"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0437DCEB0DC82DBA"]
+			id: "10131B7E77FBE86C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "17D58023698B5FB4"
+				table_id: 5234725952714858445L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1280C47511B736AC"
+				item: "createmetallurgy:graphite_ingot_mold"
+				type: "item"
+			}]
+			x: 15.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0437DCEB0DC82DBA"]
+			id: "713C540F20448BA2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5E4D633507A681AF"
+				table_id: 5234725952714858445L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6C7748EE718BFDCE"
+				item: "createmetallurgy:graphite_nugget_mold"
+				type: "item"
+			}]
+			x: 15.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0437DCEB0DC82DBA"]
+			id: "2DC86626C9127DF3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "034CDD70D4DCC36B"
+				table_id: 5234725952714858445L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2A5CFC817E02050A"
+				item: "createmetallurgy:graphite_plate_mold"
+				type: "item"
+			}]
+			x: 15.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0437DCEB0DC82DBA"]
+			id: "6EB5F25E07D067E9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6EA834CCF7E45A42"
+				table_id: 5234725952714858445L
+				type: "random"
+			}]
+			tasks: [{
+				id: "53F23899312B7CDF"
+				item: "createmetallurgy:graphite_rod_mold"
+				type: "item"
+			}]
+			x: 15.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2C34A2F8E1FB4491"]
+			id: "7FF144A06A0B5B9F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "31E574B13EB660DC"
+				table_id: 5234725952714858445L
+				type: "random"
+			}]
+			tasks: [{
+				id: "657F41182D505662"
+				item: "createmetallurgy:sturdy_whisk"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["2C34A2F8E1FB4491"]
+			id: "72052DFD52E0EC80"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "39D093CB58FD55E4"
+				table_id: 5234725952714858445L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1EBE3B14BAA06FA0"
+				item: "createmetallurgy:tungsten_wire_spool"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["153FB1C33505AD49"]
+			id: "1CE26A8B76BBACF4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0639E023F03EE606"
+				table_id: 5234725952714858445L
+				type: "random"
+			}]
+			tasks: [{
+				id: "65EDE3367552E53A"
+				item: "createmetallurgy:obdurium_ingot"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["153FB1C33505AD49"]
+			id: "2C34A2F8E1FB4491"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0DF6AFD92ED690C2"
+				table_id: 5234725952714858445L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0288D1150FE728C7"
+				item: "createmetallurgy:tungsten_ingot"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -4.5d
+		}
+		{
+			id: "6EE4F3E6B0564384"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0878E516E4B9017A"
+				table_id: 5234725952714858445L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6AFE5CA290DC41AE"
+				item: "createmetallurgy:sandpaper_belt"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"42D4CB415F0D660C"
+				"34987E47592ADC28"
+			]
+			id: "1F34370D0A01CD81"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6E6AB4B25FDE2A3A"
+				table_id: 5234725952714858445L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1A2ED509C5B0438B"
+				item: "createmetallurgy:steel_ingot"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			id: "42D4CB415F0D660C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6EB9E17B747EF84E"
+				table_id: 5234725952714858445L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4094D259A409DBDB"
+				item: "createmetallurgy:coke"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"153FB1C33505AD49"
+				"3E033D03D0624BD1"
+				"55E0E73CB6E0018B"
+				"021D7F8D8A0AA376"
+				"34987E47592ADC28"
+			]
+			dependency_requirement: "one_completed"
+			id: "220DFA476C685384"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "25B8176419C2DF71"
+				table_id: 5234725952714858445L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7B8F89CC0E9A3EA3"
+				item: "createmetallurgy:slag"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["72052DFD52E0EC80"]
+			id: "47954D1F65A3A099"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0A5B6A95CD15A146"
+				table_id: 5234725952714858445L
+				type: "random"
+			}]
+			tasks: [{
+				id: "63BEE73038D6CC64"
+				item: "createmetallurgy:white_light_bulb"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -5.5d
+		}
+		{
+			id: "31A97142188D835D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "53F829AE4B68AA8B"
+				table_id: 5234725952714858445L
+				type: "random"
+			}]
+			tasks: [{
+				id: "15C7D7EE6BBFBB9C"
+				item: "create:blaze_burner"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["64A57BBEBC07AB60"]
+			id: "46B525970B053FFD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "58C00F9A84624AEE"
+				table_id: 5234725952714858445L
+				type: "random"
+			}]
+			tasks: [{
+				id: "301F7A7A37FA6F4F"
+				item: "createmetallurgy:graphite"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2F89519B1E62C643"]
+			id: "59CE616200945F76"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "59AC2134B44EEEAF"
+				table_id: 5234725952714858445L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3A50F930C47EF512"
+				item: "createmetallurgy:casting_basin"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2F89519B1E62C643"]
+			id: "64A57BBEBC07AB60"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "721E208705E5279A"
+				table_id: 5234725952714858445L
+				type: "random"
+			}]
+			tasks: [{
+				id: "61C1521C1ADF95F7"
+				item: "createmetallurgy:casting_table"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4C49E36E1AD32692"]
+			id: "6B2E02B0F93D3515"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5FF252B2017C9557"
+				table_id: 5234725952714858445L
+				type: "random"
+			}]
+			tasks: [{
+				id: "537253D17D158735"
+				item: "createmetallurgy:industrial_crucible"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6B2E02B0F93D3515"]
+			id: "46E9BD13761EEBDD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "33C52463EAB76DD7"
+				table_id: 5234725952714858445L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5B42473C3646BCF8"
+				item: "createmetallurgy:foundry_unit"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6B2E02B0F93D3515"]
+			id: "5BCB69381E7C7D6D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6B60930B675B0A95"
+				table_id: 5234725952714858445L
+				type: "random"
+			}]
+			tasks: [{
+				id: "73C43A5B0AF62709"
+				item: "createmetallurgy:faucet"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 0.5d
+		}
+	]
+	title: "Metallurgy"
+}

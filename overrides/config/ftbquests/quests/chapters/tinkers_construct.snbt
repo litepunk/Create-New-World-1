@@ -1,0 +1,175 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tinkers_construct"
+	group: ""
+	icon: {
+		Count: 1
+		id: "tconstruct:tinkers_anvil"
+		tag: {
+			texture: "create:brass_block"
+		}
+	}
+	id: "086EAEB05405C3BB"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "4CA6AB5A96DB712B"
+			rewards: [{
+				id: "07E5A148CCF4C7E2"
+				item: {
+					Count: 1
+					id: "minecraft:painting"
+					tag: {
+						EntityTag: {
+							variant: "minecraft:match"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "650A3D34E15DA1A4"
+				item: "minecraft:book"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4CA6AB5A96DB712B"]
+			id: "1F8338AE3D76170A"
+			rewards: [{
+				count: 32
+				id: "6D63781C943F4B92"
+				item: "minecraft:sand"
+				type: "item"
+			}]
+			tasks: [{
+				id: "08FD43C9B4EA06C1"
+				item: {
+					Count: 1
+					id: "tconstruct:materials_and_you"
+					tag: {
+						mantle: {
+							book: {
+								current_page: "further_reading.fantasticfoundry_craft"
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1F8338AE3D76170A"]
+			id: "115113398060838D"
+			rewards: [{
+				count: 32
+				id: "476B5C13BD212CE2"
+				item: "minecraft:gravel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0F87D53DCBBAC864"
+				item: "tconstruct:puny_smelting"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["115113398060838D"]
+			id: "734D7D7880150E61"
+			rewards: [{
+				count: 8
+				id: "6EF767C65C30FB8F"
+				item: "minecraft:raw_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1A07214B3F15DAC3"
+				item: "tconstruct:mighty_smelting"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4CA6AB5A96DB712B"]
+			id: "433C1FB058EAF221"
+			rewards: [
+				{
+					id: "1CF3957D27EBF2BF"
+					item: "tconstruct:earth_cake"
+					type: "item"
+				}
+				{
+					id: "1502DBCE17B00C16"
+					item: "tconstruct:sky_cake"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4E47BF94252FA63C"
+				item: "tconstruct:tinkers_gadgetry"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4CA6AB5A96DB712B"]
+			id: "624A31DE76FDEAC3"
+			rewards: [
+				{
+					id: "538DF0C7963FAADD"
+					item: "tconstruct:magma_cake"
+					type: "item"
+				}
+				{
+					id: "69FC94E176586BD7"
+					item: "tconstruct:blood_cake"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "34DFD1A21DE01A97"
+				item: "tconstruct:fantastic_foundry"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["734D7D7880150E61"]
+			id: "66847B22007F8B88"
+			rewards: [{
+				id: "31F18813963F618A"
+				type: "xp_levels"
+				xp_levels: 30
+			}]
+			tasks: [{
+				id: "17F4FEF1DB652818"
+				item: {
+					Count: 1
+					id: "tconstruct:encyclopedia"
+					tag: {
+						mantle: {
+							book: {
+								current_page: "upgrades.upgrades"
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: -0.5d
+		}
+	]
+	title: "Tinkers Construct"
+}
