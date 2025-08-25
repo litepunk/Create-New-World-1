@@ -165,6 +165,17 @@
         "value": 1024
       }
     },
+    "vminus:jump_boost": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "protection_pixel:hellfire": {
       "enabled": false,
       "min": {
@@ -440,6 +451,17 @@
         "value": 1
       }
     },
+    "vminus:width": {
+      "enabled": false,
+      "min": {
+        "default": 0.2,
+        "value": 0.2
+      },
+      "max": {
+        "default": 5,
+        "value": 5
+      }
+    },
     "minecraft:generic.attack_speed": {
       "enabled": true,
       "min": {
@@ -460,6 +482,17 @@
       "max": {
         "default": 2048,
         "value": 1000000
+      }
+    },
+    "vminus:height": {
+      "enabled": false,
+      "min": {
+        "default": 0.2,
+        "value": 0.2
+      },
+      "max": {
+        "default": 5,
+        "value": 5
       }
     },
     "tconstruct:generic.safe_fall_distance": {
@@ -506,6 +539,17 @@
         "value": 1
       }
     },
+    "vminus:blunt_protection": {
+      "enabled": false,
+      "min": {
+        "default": -100,
+        "value": -100
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "tconstruct:generic.crouch_damage_multiplier": {
       "enabled": false,
       "min": {
@@ -517,7 +561,7 @@
         "value": 100
       }
     },
-    "vminus:blunt_protection": {
+    "vminus:fall_protection": {
       "enabled": false,
       "min": {
         "default": -100,
@@ -533,17 +577,6 @@
       "min": {
         "default": 1,
         "value": 1
-      },
-      "max": {
-        "default": 100,
-        "value": 100
-      }
-    },
-    "vminus:fall_protection": {
-      "enabled": false,
-      "min": {
-        "default": -100,
-        "value": -100
       },
       "max": {
         "default": 100,
